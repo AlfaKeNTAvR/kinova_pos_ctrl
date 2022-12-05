@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>gopher-pos-ctrl</name>
+  <name>gopher_pos_ctrl</name>
   <version>0.0.1</version>
-  <description>The gopher-pos-ctrl package.</description>
+  <description>The gopher_pos_ctrl package.</description>
 
   <maintainer email="bognik3@gmail.com">Nikita Boguslavskii</maintainer>
   
   <license>BSD</license>
 
-  <url type="website">https://github.com/GOPHER-System-Intergration/gopher-pos-ctrl</url>
+  <url type="website">https://github.com/GOPHER-System-Intergration/gopher_pos_ctrl</url>
 
   <author email="bognik3@gmail.com">Nikita Boguslavskii</author>
 
@@ -35,10 +35,12 @@
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>roscpp</build_depend>
   <build_depend>rospy</build_depend>
+  <build_depend>message_generation</build_depend>
   <build_export_depend>roscpp</build_export_depend>
   <build_export_depend>rospy</build_export_depend>
   <exec_depend>roscpp</exec_depend>
   <exec_depend>rospy</exec_depend>
+  <exec_depend>message_runtime</exec_depend>
 
 
   <!-- The export tag contains other, unspecified, tags -->
